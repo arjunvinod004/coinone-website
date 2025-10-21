@@ -81,24 +81,6 @@ function About() {
       };
     }, [addAnimation]);
 
-    const API_URL = 'https://luluthattukada.com/coinone/api.php'
-    const fetchData = async () => {
-      try {
-        const response = await axios.get(API_URL);
-        return response.data;
-      } catch (error) {
-        console.error('Error fetching data:', error);
-        return {
-          clients: [],
-          slidercoinone: [],
-          countcoinone: [],
-          servicescategory: [],
-          services: [],
-          testimonials: [],
-          technology: []
-        };
-      }
-    };
   
     const [datas, setDatas] = useState({
       clients: [],
@@ -155,7 +137,6 @@ function About() {
 
     
   
-  
     useEffect(() => {
       const handleScroll = () => {
         const scrollTop = window.scrollY;
@@ -175,58 +156,10 @@ function About() {
     }, [isScrolled]);
   
     
-    // useEffect(() => {
-    //   if (datas && datas.slidercoinone && el.current) {
-    //     const strings = datas.slidercoinone.map(slide => slide.title); // Extract strings from slidercoinone
-  
-    //     // Destroy the previous instance if it exists
-    //     if (typedInstance.current) {
-    //       typedInstance.current.destroy();
-    //     }
-  
-    //     // Create a new instance of Typed.js
-    //     typedInstance.current = new Typed(el.current, {
-    //       strings: strings,
-    //       typeSpeed: 130,
-    //       backSpeed: 50,
-    //       loop: true,
-    //     });
-    //   }
-  
-    //   // Cleanup on component unmount or when datas changes
-    //   return () => {
-  
-    //     if (typedInstance.current) {
-    //       typedInstance.current.destroy();
-    //     }
-    //   };
-    // }, [datas]); 
-  
-    // Dependency array includes datas to run this effect when datas changes
-  
-  
-    // Handle category click
+ 
     const handleCategoryClick = (categoryId) => {
       setSelectedCategory(categoryId);
     };
-  
-  
-  
-    const filteredServices = selectedCategory === '1'
-      ? datas.services
-      : datas.services.filter(service => service.category_id === selectedCategory);
-  
-  
-    useEffect(() => {
-      axios.get('https://luluthattukada.com/coinone/api.php')
-        .then(res => {
-          setDatas(res.data)
-          console.log(res.data);
-        })
-    }, [])
-  
-  
-  
   
   
   
@@ -274,28 +207,6 @@ function About() {
 
 
         <section  class="bg-light paddingtop80" >
-          {/* <div class="container">
-            <div class="row">
-
-           
-
-              <div class="col text-center slogantext">
-                <h1 data-aos="fade-up" class="font-weight-bold slogan">Our company develops <strong>websites and
-                  apps</strong> <br />bringing your brilliant ideas to life.As a team,we aim to
-                  produce<br /><strong>high-quality goods</strong> and deliver them on schedule..</h1>
-                <h4 class="text-green" data-aos="fade-up" data-aos-delay="400"></h4>
-
-
-
-                
-
-
-
-
-              </div>
-            </div>
-          </div> */}
-
           <div class="container features_mbg" >
             <div class="row flex-row-reverse">
               <div class="col-md-12 col-lg-9 features_box_bg">
@@ -327,7 +238,7 @@ Coinone always make sure to deliver the best quality products keeping the custom
                 </div>
               </div>
               <div class="col-md-12 col-lg-3  bubbles_anmtn_bg">
-                <img src={require('../src/images/2023-10-26.jpg')} class="img-fluid rounded" alt="best web designers in kerala
+               <img src={`${process.env.PUBLIC_URL}/assets/images/coinone home.jpg`} class="img-fluid rounded" alt="best web designers in kerala
                   "/>
 
               </div>
@@ -514,15 +425,12 @@ skewUpRef.current.push(el);
                      </div> 
                      </section>
 
-                     <section id="testimonials" class="testimonials padding25">
+
+  <section  class="testimonials padding25">
           <div class="container">
 
-            {/* <div class="section-title" data-aos="fade-up">
-              <h2>Our Clients</h2>
 
-            </div> */}
-
-            <div class="clients-slider swiper" >
+<div class="clients-slider swiper" >
             <div class="section-title" ref={(el) => {
           if (el && !skewUpRef.current.includes(el)) {
             skewUpRef.current.push(el);
@@ -535,15 +443,32 @@ skewUpRef.current.push(el);
                 <div class="client-slide-track ">
                 
 
-                  {datas.clients.map((items, index) => (
+                  
                     <div className='client-slide logo-wrapper'>
-                      <img src={`/coinone/${items.image}`} alt="" />
+                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/clients/amazing_fresh.png`} alt="" />
                     </div>
-                  ))}
 
+                      <div className='client-slide logo-wrapper'>
+                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/clients/kerala_farm.png`} alt="" />
+                    </div>
 
+                     <div className='client-slide logo-wrapper'>
+                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/imelt.png`} alt="" />
+                    </div>
+                 
+                   <div className='client-slide logo-wrapper'>
+                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/flowares.png`} alt="" />
+                    </div>
 
-
+                     <div className='client-slide logo-wrapper'>
+                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/oma.png`} alt="" />
+                    </div>
+                     <div className='client-slide logo-wrapper'>
+                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/emigo.png`} alt="" />
+                    </div>
+                     <div className='client-slide logo-wrapper'>
+                      <img style={{backgroundColor:'#fff'}} className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/woodsberg.png`} alt="" />
+                    </div>
                 </div>
               </div>
               <div class="swiper-pagination"></div>
@@ -551,7 +476,6 @@ skewUpRef.current.push(el);
 
           </div>
         </section>
-
 
         <Footer />
     

@@ -24,7 +24,6 @@ function App() {
   <video autoPlay muted loop id="bg-video">
     <source src={require('../src/images/coinone 1.mp4')} type="video/mp4" />
   </video>
-
   <div className="video-overlay">
     <div className="carousel-inner">
       <div className="carousel-item active">
@@ -91,8 +90,6 @@ function App() {
                     <p>Coinone Global Solution is committed to connecting businesses across the world towards digitalisation highlighting the knowledge of skills. We, the ideal digital agency, provide bespoke solutions to meet all your digital needs. Coinone aims to expand, innovate, or enhance businesses and propel your projects to new heights. Coinone holds the power for better experiences.
                     We as a Team, ensure to develop products in high standards keeping the technology in mind and you receive consistent quality deliverable. 
 Coinone always make sure to deliver the best quality products keeping the customer satisfaction up to mark.
-
-Coinone always make sure to deliver the best quality products keeping the customer satisfaction up to mark.
                     </p>
                   </div>
                   
@@ -109,7 +106,7 @@ Coinone always make sure to deliver the best quality products keeping the custom
                 </div>
               </div>
               <div class="col-md-12 col-lg-3  bubbles_anmtn_bg">
-                <img src={`${process.env.PUBLIC_URL}/assets/img/technology.jpg`} class="img-fluid rounded" alt="best web designers in kerala
+                <img src={`${process.env.PUBLIC_URL}/assets/images/coinone home.jpg`} class="img-fluid rounded" alt="best web designers in kerala
                   "/>
 
               </div>
@@ -299,13 +296,9 @@ skewUpRef.current.push(el);
 
 <p id="testimonials"></p>
 
-                     <section  class="testimonials paddingtop80">
+  <section  class="testimonials paddingtop80">
           <div class="container">
 
-            {/* <div class="section-title" data-aos="fade-up">
-              <h2>Our Clients</h2>
-
-            </div> */}
 
 <div class="clients-slider swiper" >
             <div class="section-title" ref={(el) => {

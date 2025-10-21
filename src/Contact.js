@@ -13,26 +13,20 @@ function Contact() {
     const [developmentType, setDevelopmentType] = useState('');
     const [email, setEmail] = useState('');
     const [phone,setPhone]=useState('');
-const btnDisable= !(name && email && phone)
+const btnDisable= !(name && email && phone && developmentType);
 
 const [items , setItems] = useState({ name : name , email : email , phone : phone , developmentType : developmentType});
-const handleSubmit = (e) => {
-  e.preventDefault();
-  fetch('https://coinoneglobal.com/contacts.php', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(items),
-  })
-  .then(response => response.json())
-  .then(data => {
-    console.log('Success:', data);
-  })
-  .catch((error) => {
-    console.error('Error:', error);
-  });
-};
+ const handleSubmit = (e) => {
+    e.preventDefault();
+fetch("http://localhost/coinone/add_user.php", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ name, email, phone, developmentType }),
+})
+  .then(res => res.json())
+  .then(data => alert(data.message))
+  .catch(err => console.error("Error:", err));
+  };
     useEffect(() => {
       window.scrollTo(0, 0);
       // Handle mobile nav toggle click
