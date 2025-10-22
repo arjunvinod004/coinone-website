@@ -107,14 +107,14 @@ function Mobile() {
                               <div className="slider-container">
                                   <Slider arrows={false} {...settings}>
 
-                                      <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/mobile 2.png')} alt="" />
+                                     <div>
+                                          <img className='rounded img-fluid' src={require('../src/images/teresa_design.png')} alt="" />
                                       </div>
                                       <div>
-                                          <img className='rounded img-fluid' src={'https://fiverr-res.cloudinary.com/image/upload/c_limit,f_auto,q_auto,t_smartwm,w_500/v1/attachments/delivery/asset/8991e71b237b3d494ca07aaf51f430da-1717736446/OMNOTE%20App.png'} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/lasavrona.png')} alt="" />
                                       </div>
                                       <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/Screen-Shot.png')} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/teresa_template.jpg')} alt="" />
                                       </div>
 
 

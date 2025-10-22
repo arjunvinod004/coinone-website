@@ -93,7 +93,7 @@ function Temple() {
 
 
 
-                          <div className="col-md-6 erp">
+                          <div className="col-md-12 erp">
                               <h2 style={{color:'#000'}} >TEMPLE MANAGEMENT SYSTEM</h2>
                               <p >Online Temple  Management Software is a web-based application that automates the charitable trusts that run and maintain temple organizations. The challenges addressed include integrating modules to manage donations, devotees’ database, and festivals. The software is built to be an easy-to-use interface and the navigation is simple. We have also integrated modules to generate relevant reports.
                              
@@ -105,12 +105,12 @@ function Temple() {
                               <div className="slider-container">
                                   <Slider arrows={false} {...settings}>
 
-                                      <div>
+                                      {/* <div>
                                           <img className='rounded img-fluid' src={require('../src/images/TEMPLE-MANAGEMENT-SYSTEM1.png')} alt="" />
                                       </div>
                                       <div>
                                           <img className='rounded img-fluid' src={require('../src/images/Online-Temple-Management-System.png')} alt="" />
-                                      </div>
+                                      </div> */}
                                      
 
 

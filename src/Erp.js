@@ -106,16 +106,12 @@ function Erp() {
                               <div className="slider-container">
                                   <Slider arrows={false} {...settings}>
 
-                                      <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/ERPNext_accounts_home_page.png')} alt="" />
+                                       <div>
+                                          <img className='rounded img-fluid' src={require('../src/images/syswares1.png')} alt="" />
                                       </div>
                                       <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/Oracle-ERP-Dashboard-Screenshot.png')} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/coinone erp.png')} alt="" />
                                       </div>
-                                      <div>
-                                          <img className='rounded img-fluid' src={'https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/1a19aba1-b8ca-4d03-812e-5d9e400c2f95.png?ixlib=rb-1.0.0&ch=Width%2CDPR&auto=format&w=750&h=450&q=50'} alt="" />
-                                      </div>
-
 
 
                                   </Slider>

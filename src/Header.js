@@ -5,6 +5,7 @@ import 'typed.js'
 import $ from 'jquery'
 import axios from 'axios';
 import './App.css'
+import '../src/css/style.css'
 import { Link } from 'react-router-dom';
 
 function Header() {
@@ -89,14 +90,9 @@ function Header() {
           <div class="container container-xl d-flex align-items-center justify-content-between">
 
               <div class="logo">
-              <Link to={'/'}><h1><a href="#"><img src="/coinone/assets/img/header-logo.svg" /></a></h1></Link>  
+              <Link to={'/'}><h1><a href="#"><img src="/assets/img/header-logo.svg" /></a></h1></Link>  
               </div>
-
-
-
-
               <nav id="navbar" className={`navbar ${isMobile ? 'navbar-mobile' : ''}`} >
-             
                   <ul>
                     <Link to={'/'}> <li><a class="nav-link scrollto active" href="#hero" onClick={() => setIsMobile(false)}>Home</a></li></Link> 
                     <Link to={'/about'}> <li><a class="nav-link scrollto" onClick={() => setIsMobile(false)}>About</a></li></Link> 

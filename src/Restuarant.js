@@ -104,13 +104,10 @@ function Restuarant() {
                         <div className="slider-container">
                             <Slider arrows={false} {...settings}>
                             <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/res1.png')} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/emigo-website1.png')} alt="" />
                                       </div>
                                       <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/restaurant-billing.png')} alt="" />
-                                      </div>
-                                      <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/bar-pos.png')} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/restaurant1.png')} alt="" />
                                       </div>
                             </Slider>
                         </div>

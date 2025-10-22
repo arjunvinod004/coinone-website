@@ -95,7 +95,7 @@ function Boutique() {
 
 
                     <div className="col-md-6 erp">
-                        <h2 style={{color:'#000'}} >BOUTIQUE MANAGEMENT SYSTEM</h2>
+                        <h2 style={{color:'#000'}} >BOUTIQUE MANAGEMENT SYSTEMM</h2>
                         <p >Mobile apps are making a change in the way millions of people live, work, and conduct their business. With a customer-centric architecture, WebCastle is the most trusted mobile app development Company in Kochi. WebCastle delivers high-quality mobile app development services to startups as well as enterprise clients. Our bunch of experienced and professional mobile app developers designs smooth and seamless mobile applications according to your requirements, which provide you an edge over the competition. WebCastle Media is an expert in delivering high-performance and scalable enterprise mobile apps in Android and iOS
                        
                         </p>
@@ -107,13 +107,10 @@ function Boutique() {
                             <Slider arrows={false} {...settings}>
 
                                 <div>
-                                    <img className='rounded img-fluid' src={require('../src/images/boutique inventory system.png')} alt="" />
+                                    <img className='rounded img-fluid' src={require('../src/images/teresa dashboard.png')} alt="" />
                                 </div>
                                 <div>
-                                    <img className='rounded img-fluid' src={require('../src/images/boutique store management system.png')} alt="" />
-                                </div>
-                                <div>
-                                    <img className='rounded img-fluid' src={require('../src/images/boutique.png')} alt="" />
+                                    <img className='rounded img-fluid' src={require('../src/images/teresa dashboard1.png')} alt="" />
                                 </div>
 
 

@@ -18,7 +18,7 @@ const btnDisable= !(name && email && phone && developmentType);
 const [items , setItems] = useState({ name : name , email : email , phone : phone , developmentType : developmentType});
  const handleSubmit = (e) => {
     e.preventDefault();
-fetch("http://localhost/coinone/add_user.php", {
+fetch("https://coinoneglobal.com/coinone/add_user.php", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({ name, email, phone, developmentType }),

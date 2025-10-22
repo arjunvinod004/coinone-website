@@ -93,7 +93,7 @@ function Retail() {
 
 
 
-                    <div className="col-md-6 erp">
+                    <div className="col-md-12 erp">
                         <h2 style={{color:'#000'}} >RETAIL MANAGEMENT SYSTEM</h2>
                         <p >A retail management system (RMS) is a platform that combines several useful tools to aid in running a retail store, such as inventory management and point of sale (POS). As a retail business, you can't afford to lose stock or write-off unsold goods. A retail management system can take the pain away
                         </p>
@@ -104,7 +104,7 @@ function Retail() {
                         <div className="slider-container">
                             <Slider arrows={false} {...settings}>
 
-                                <div>
+                                {/* <div>
                                     <img className='rounded img-fluid' src={require('../src/images/retail.png')} alt="" />
                                 </div>
                                 <div>
@@ -112,7 +112,7 @@ function Retail() {
                                 </div>
                                 <div>
                                     <img className='rounded img-fluid' src={require('../src/images/retail2.png')} alt="" />
-                                </div>
+                                </div> */}
 
 
 

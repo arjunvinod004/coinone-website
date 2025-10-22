@@ -112,16 +112,14 @@ function Web() {
                                   <Slider arrows={false} {...settings}>
 
                                       <div>
-                                          <img className='rounded img-fluid' src={'https://luluthattukada.com/coinone/assets/img/portfolio/netlife.png'} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/netlife.png')} alt="" />
                                       </div>
                                       <div>
-                                          <img className='rounded img-fluid' src={'https://luluthattukada.com/coinone/assets/img/portfolio/omaglobal.png'} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/emigo-website2.png')} alt="" />
                                       </div>
                                       <div>
-                                          <img className='rounded img-fluid' src={'https://luluthattukada.com/coinone/assets/img/portfolio/syswares.png'} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/woodsberg 1.png')} alt="" />
                                       </div>
-
-
 
                                   </Slider>
                               </div>

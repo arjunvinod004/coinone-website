@@ -394,13 +394,39 @@ skewUpRef.current.push(el);
     <div className="col-lg-6 col-md-6 portfolio-item">
       <div className="portfolio-wrap">
        <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/flowares.png`} className="img-fluid" alt="Web Development"/>
+           <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="https://flowares.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+Flowares
+      </a>
+    </div>
       </div>
     </div>
 {/* image 2 */}
         <div className="col-lg-6 col-md-6 portfolio-item">
       <div className="portfolio-wrap">
        <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/emigo-website.png`} className="img-fluid" alt="Web Development"/>
-  
+       
+    <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="https://emigonetworks.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+Emigo Networks
+      </a>
+    </div>
       </div>
     </div>
 
@@ -408,13 +434,38 @@ skewUpRef.current.push(el);
     <div className="col-lg-6 col-md-6 portfolio-item">
       <div className="portfolio-wrap">
        <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/omaglobal.png`} className="img-fluid" alt="Web Development"/>
-  
+  <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="https://www.omaglobalacademy.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+Oma Global Academy
+      </a>
+    </div>
       </div>
     </div>
    {/* image 4 */}
        <div className="col-lg-6 col-md-6 portfolio-item">
       <div className="portfolio-wrap">
        <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/netlife.png`} className="img-fluid" alt="Web Development"/>
+<div
+      className="portfolio-overlay"
+    >
+      <a
+        href="https://www.netlifeqatar.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+Netlife Qatar
+      </a>
+    </div>
       </div>
     </div>
 
@@ -422,6 +473,19 @@ skewUpRef.current.push(el);
        <div className="col-lg-6 col-md-6 portfolio-item">
       <div className="portfolio-wrap">
        <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/syswares.png`} className="img-fluid" alt="Web Development"/>
+           <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="https://syswares.co.uk/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+    Syswares
+      </a>
+    </div>
   
       </div>
     </div>
@@ -430,8 +494,80 @@ skewUpRef.current.push(el);
        <div className="col-lg-6 col-md-6 portfolio-item">
       <div className="portfolio-wrap">
        <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/woodsberg.png`} className="img-fluid" alt="Web Development"/>
+        <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="https://woodsberg.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+      Woodsberg
+      </a>
+    </div>
       </div>
     </div>
+
+
+              {/* image 7 */}
+       <div className="col-lg-6 col-md-6 portfolio-item">
+      <div className="portfolio-wrap">
+       <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/emigo restuarant.png`} className="img-fluid" alt="Web Development"/>
+        <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+      Restaurant
+      </a>
+    </div>
+      </div>
+    </div>
+
+            {/* image 8 */}
+
+            <div className="col-lg-6 col-md-6 portfolio-item">
+  <div
+    className="portfolio-wrap"
+  >
+    <img
+      src={`${process.env.PUBLIC_URL}/assets/img/portfolio/amazingfreshmain.png`}
+      className="img-fluid"
+      alt="Web Development"
+    
+    />
+
+    {/* Overlay with button */}
+    <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="https://amazingfresh.co.uk/amazing/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+      Amazing Fresh
+      </a>
+    </div>
+  </div>
+
+
+</div>
+
+       {/* <div className="col-lg-6 col-md-6 portfolio-item">
+      <div className="portfolio-wrap">
+       <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/amazingfreshmain.png`} className="img-fluid" alt="Web Development"/>
+      </div>
+    </div> */}
 
 
 
@@ -444,14 +580,159 @@ skewUpRef.current.push(el);
     <div className="col-lg-6 col-md-6 portfolio-item">
       <div className="portfolio-wrap">
        <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/teresa_design.png`} className="img-fluid" alt="Web Development"/>
-
+   <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+      Teresa Template
+      </a>
+    </div>
       </div>
     </div>
 {/* image 2 */}  
         <div className="col-lg-6 col-md-6 portfolio-item">
       <div className="portfolio-wrap">
        <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/teresa-design 1.png`} className="img-fluid" alt="Web Development"/>
-  
+     <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="https://play.google.com/store/apps/details?id=com.coinone.teresacustomer"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+      Teresa Customer
+      </a>
+    </div>
+      </div>
+    </div>
+
+
+    {/* image 3 */}  
+        <div className="col-lg-6 col-md-6 portfolio-item">
+      <div className="portfolio-wrap">
+       <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/lasavrona.png`} className="img-fluid" alt="Web Development"/>
+     <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="https://play.google.com/store/apps/details?id=com.coinone.lasovflowx"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+      La Savrona orders
+      </a>
+    </div>
+      </div>
+    </div>
+
+        {/* image 3 */}  
+        <div className="col-lg-6 col-md-6 portfolio-item">
+      <div className="portfolio-wrap">
+       <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/lasavrona1.png`} className="img-fluid" alt="Web Development"/>
+       <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="https://play.google.com/store/apps/details?id=com.coinone.lasovflowx"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+      La Savrona Orders
+      </a>
+    </div>
+      </div>
+    </div>
+
+    {/* image 3 */}  
+        <div className="col-lg-6 col-md-6 portfolio-item">
+      <div className="portfolio-wrap">
+       <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/lasavrona2.png`} className="img-fluid" alt="Web Development"/>
+         <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="https://play.google.com/store/apps/details?id=com.coinone.lasov"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+      La Savrona 
+      </a>
+    </div>
+      </div>
+    </div>
+
+        {/* image 3 */}  
+        <div className="col-lg-6 col-md-6 portfolio-item">
+      <div className="portfolio-wrap">
+       <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/lasavrona3.png`} className="img-fluid" alt="Web Development"/>
+  <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="https://play.google.com/store/apps/details?id=com.coinone.lasov"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+      La Savrona 
+      </a>
+    </div>
+      </div>
+    </div>
+
+
+            <div className="col-lg-6 col-md-6 portfolio-item">
+      <div className="portfolio-wrap">
+       <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/seashore.png`} className="img-fluid" alt="Web Development"/>
+  <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+    Seashore
+      </a>
+    </div>
+      </div>
+    </div>
+
+
+               <div className="col-lg-6 col-md-6 portfolio-item">
+      <div className="portfolio-wrap">
+       <img src={`${process.env.PUBLIC_URL}/assets/img/portfolio/seashore1.png`} className="img-fluid" alt="Web Development"/>
+  <div
+      className="portfolio-overlay"
+    >
+      <a
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-light"
+        style={{ padding: "10px 20px", fontWeight: "bold", zIndex: 3 }}
+      >
+    Seashore
+      </a>
+    </div>
       </div>
     </div>
 
