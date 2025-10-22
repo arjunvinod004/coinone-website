@@ -94,7 +94,7 @@ function Header() {
               </div>
               <nav id="navbar" className={`navbar ${isMobile ? 'navbar-mobile' : ''}`} >
                   <ul>
-                    <Link to={'/'}> <li><a class="nav-link scrollto active" href="#hero" onClick={() => setIsMobile(false)}>Home</a></li></Link> 
+                    <Link to={'/'}> <li><a class="nav-link scrollto " href="#hero" onClick={() => setIsMobile(false)}>Home</a></li></Link> 
                     <Link to={'/about'}> <li><a class="nav-link scrollto" onClick={() => setIsMobile(false)}>About</a></li></Link> 
                      <Link to={'/services/crm'}> <li><a class="nav-link scrollto" onClick={() => setIsMobile(false)}>Services</a></li></Link>
                       <li><Link to={'/contact'} style={{display:'contents'}}><a class="nav-link scrollto" href="#contact" onClick={() => setIsMobile(false)}>Contactus</a></Link></li>

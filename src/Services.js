@@ -229,13 +229,13 @@ function Services() {
                               <div className="slider-container">
                                   <Slider arrows={false} {...settings}>
                                       <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/teresa_design.png')} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/teresa-design 1.png')} alt="" />
                                       </div>
                                       <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/lasavrona.png')} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/seashore.png')} alt="" />
                                       </div>
                                       <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/teresa_template.jpg')} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/seashore1.png')} alt="" />
                                       </div>
                                   </Slider>
                               </div>

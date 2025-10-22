@@ -329,10 +329,7 @@ Coinone always make sure to deliver the best quality products keeping the custom
                      </a> 
                      </Link>
                      </div> 
-                    
-           
-             
-            
+                  
               <div class="col-md-6 col-lg-4 box-gap">
                <Link to={'/services/restaurant'}> <a href="#"> <div class="service-box text-left wow fadeIn" data-wow-delay=".3s" >
                   <div class="icon icon-shape lazyloaded">
@@ -442,9 +439,7 @@ skewUpRef.current.push(el);
               <div class="client-slider">
                 <div class="client-slide-track ">
                 
-
-                  
-                    <div className='client-slide logo-wrapper'>
+<div className='client-slide logo-wrapper'>
                       <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/clients/amazing_fresh.png`} alt="" />
                     </div>
 
@@ -457,17 +452,20 @@ skewUpRef.current.push(el);
                     </div>
                  
                    <div className='client-slide logo-wrapper'>
-                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/flowares.png`} alt="" />
+                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/Flowares.png`} alt="" />
+                    </div> 
+
+                   <div className='client-slide logo-wrapper'>
+                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/syswares.png`} alt="" />
+                    </div>
+                    
+            
+                     <div className='client-slide logo-wrapper'>
+                      <img style={{backgroundColor:'#fff'}}  className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/woodsberg_logo.png`} alt="" />
                     </div>
 
-                     <div className='client-slide logo-wrapper'>
-                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/oma.png`} alt="" />
-                    </div>
-                     <div className='client-slide logo-wrapper'>
-                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/emigo.png`} alt="" />
-                    </div>
-                     <div className='client-slide logo-wrapper'>
-                      <img style={{backgroundColor:'#fff'}} className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/woodsberg.png`} alt="" />
+                      <div className='client-slide logo-wrapper'>
+                      <img style={{backgroundColor:'#fff'}} className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/clients/emigo-networks.svg`} alt="" />
                     </div>
                 </div>
               </div>

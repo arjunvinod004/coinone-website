@@ -327,17 +327,20 @@ skewUpRef.current.push(el);
                     </div>
                  
                    <div className='client-slide logo-wrapper'>
-                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/flowares.png`} alt="" />
+                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/Flowares.png`} alt="" />
+                    </div> 
+
+                   <div className='client-slide logo-wrapper'>
+                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/syswares.png`} alt="" />
+                    </div>
+                    
+            
+                     <div className='client-slide logo-wrapper'>
+                      <img style={{backgroundColor:'#fff'}}  className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/woodsberg_logo.png`} alt="" />
                     </div>
 
-                     <div className='client-slide logo-wrapper'>
-                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/oma.png`} alt="" />
-                    </div>
-                     <div className='client-slide logo-wrapper'>
-                      <img className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/emigo.png`} alt="" />
-                    </div>
-                     <div className='client-slide logo-wrapper'>
-                      <img style={{backgroundColor:'#fff'}} className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/woodsberg.png`} alt="" />
+                      <div className='client-slide logo-wrapper'>
+                      <img style={{backgroundColor:'#fff'}} className='img-fluid' src={`${process.env.PUBLIC_URL}/assets/img/clients/emigo-networks.svg`} alt="" />
                     </div>
                 </div>
               </div>
